@@ -785,13 +785,6 @@ module.exports = __webpack_require__("9e1e") ? Object.defineProperties : functio
 
 /***/ }),
 
-/***/ "14de":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "1654":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1683,6 +1676,13 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
 
 /***/ }),
 
+/***/ "31a1":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "32e9":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2380,6 +2380,13 @@ module.exports = function (key) {
 var core = module.exports = { version: '2.6.11' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
+
+/***/ }),
+
+/***/ "5926":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -3642,6 +3649,17 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("35e8");
+
+
+/***/ }),
+
+/***/ "9387":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_15cdb7ac_prod_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("31a1");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_15cdb7ac_prod_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_15cdb7ac_prod_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
 
 
 /***/ }),
@@ -5131,17 +5149,6 @@ module.exports = __webpack_require__("54a1");
 
 /***/ }),
 
-/***/ "c8cf":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_96532d88_prod_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("14de");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_96532d88_prod_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_96532d88_prod_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
-
-
-/***/ }),
-
 /***/ "ca5a":
 /***/ (function(module, exports) {
 
@@ -5396,13 +5403,6 @@ exports.f = __webpack_require__("8e60") ? Object.defineProperty : function defin
 
 /***/ }),
 
-/***/ "db06":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "dbdb":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5429,17 +5429,6 @@ var store = global[SHARED] || (global[SHARED] = {});
 module.exports = (
   'constructor,hasOwnProperty,isPrototypeOf,propertyIsEnumerable,toLocaleString,toString,valueOf'
 ).split(',');
-
-
-/***/ }),
-
-/***/ "e214":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_19351537_prod_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("db06");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_19351537_prod_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_19351537_prod_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
 
 
 /***/ }),
@@ -7360,12 +7349,14 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"faaef9da-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/VuePhoneNumberInput/index.vue?vue&type=template&id=19351537&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"vue-phone-number-input flex",class:[{ 'dark': _vm.dark }, _vm.size],attrs:{"id":_vm.id}},[(!_vm.noCountrySelector)?_c('div',{staticClass:"select-country-container"},[_c('CountrySelector',{ref:"CountrySelector",staticClass:"input-country-selector",attrs:{"id":(_vm.uniqueId + "_country_selector"),"items":_vm.codesCountries,"countries-height":_vm.countriesHeight,"error":_vm.shouldChooseCountry,"hint":_vm.shouldChooseCountry ? _vm.t.countrySelectorError : null,"disabled":_vm.disabled,"valid":_vm.isValid && !_vm.noValidatorState,"preferred-countries":_vm.preferredCountries,"only-countries":_vm.onlyCountries,"ignored-countries":_vm.ignoredCountries,"label":_vm.t.countrySelectorLabel,"no-flags":_vm.noFlags,"show-code-on-list":_vm.showCodeOnList,"size":_vm.size,"dark":_vm.dark,"theme":_vm.theme},model:{value:(_vm.countryCode),callback:function ($$v) {_vm.countryCode=$$v},expression:"countryCode"}},[_vm._t("arrow",null,{"slot":"arrow"})],2)],1):_vm._e(),_c('div',{staticClass:"flex-1"},[_c('InputTel',_vm._b({ref:"PhoneNumberInput",staticClass:"input-phone-number",attrs:{"id":(_vm.uniqueId + "_phone_number"),"label":_vm.t.phoneNumberLabel,"hint":_vm.hintValue,"dark":_vm.dark,"disabled":_vm.disabled,"size":_vm.size,"error":_vm.error,"valid":_vm.isValid && !_vm.noValidatorState,"required":_vm.required,"no-country-selector":_vm.noCountrySelector,"theme":_vm.theme},on:{"keydown":function (e) { _vm.lastKeyPressed = e.keyCode },"focus":function($event){return _vm.$emit('phone-number-focused')},"blur":function($event){return _vm.$emit('phone-number-blur')}},model:{value:(_vm.phoneNumber),callback:function ($$v) {_vm.phoneNumber=$$v},expression:"phoneNumber"}},'InputTel',_vm.$attrs,false))],1)])}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"faaef9da-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/VuePhoneNumberInput/index.vue?vue&type=template&id=15cdb7ac&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"vue-phone-number-input flex",class:[{ dark: _vm.dark }, _vm.size],attrs:{"id":_vm.id}},[(!_vm.noCountrySelector)?_c('div',{staticClass:"select-country-container"},[_c('CountrySelector',{ref:"CountrySelector",staticClass:"input-country-selector",attrs:{"id":(_vm.uniqueId + "_country_selector"),"items":_vm.codesCountries,"countries-height":_vm.countriesHeight,"error":_vm.shouldChooseCountry,"hint":_vm.shouldChooseCountry ? _vm.t.countrySelectorError : null,"disabled":_vm.disabled,"valid":_vm.isValid && !_vm.noValidatorState,"preferred-countries":_vm.preferredCountries,"only-countries":_vm.onlyCountries,"ignored-countries":_vm.ignoredCountries,"label":_vm.t.countrySelectorLabel,"no-flags":_vm.noFlags,"show-code-on-list":_vm.showCodeOnList,"size":_vm.size,"dark":_vm.dark,"theme":_vm.theme},model:{value:(_vm.countryCode),callback:function ($$v) {_vm.countryCode=$$v},expression:"countryCode"}},[_vm._t("arrow",null,{"slot":"arrow"})],2)],1):_vm._e(),_c('div',{staticClass:"flex-1"},[_c('InputTel',_vm._b({ref:"PhoneNumberInput",staticClass:"input-phone-number",attrs:{"id":(_vm.uniqueId + "_phone_number"),"label":_vm.t.phoneNumberLabel,"hint":_vm.hintValue,"dark":_vm.dark,"disabled":_vm.disabled,"size":_vm.size,"error":_vm.error,"valid":_vm.isValid && !_vm.noValidatorState,"required":_vm.required,"no-country-selector":_vm.noCountrySelector,"theme":_vm.theme},on:{"keydown":function (e) {
+          _vm.lastKeyPressed = e.keyCode;
+        },"focus":function($event){return _vm.$emit('phone-number-focused')},"blur":function($event){return _vm.$emit('phone-number-blur')}},model:{value:(_vm.phoneNumber),callback:function ($$v) {_vm.phoneNumber=$$v},expression:"phoneNumber"}},'InputTel',_vm.$attrs,false))],1)])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/VuePhoneNumberInput/index.vue?vue&type=template&id=19351537&scoped=true&
+// CONCATENATED MODULE: ./src/VuePhoneNumberInput/index.vue?vue&type=template&id=15cdb7ac&scoped=true&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es7.object.get-own-property-descriptors.js
 var es7_object_get_own_property_descriptors = __webpack_require__("8e6e");
@@ -10504,6 +10495,13 @@ function parsePhoneNumberFromString_parsePhoneNumberFromString() {
 function exports_parsePhoneNumberFromString_parsePhoneNumberFromString() {
 	return withMetadataArgument(parsePhoneNumberFromString_parsePhoneNumberFromString, arguments)
 }
+// CONCATENATED MODULE: ./node_modules/libphonenumber-js/min/exports/getCountryCallingCode.js
+
+
+
+function getCountryCallingCode_getCountryCallingCode() {
+	return withMetadataArgument(getCountryCallingCode, arguments)
+}
 // CONCATENATED MODULE: ./node_modules/libphonenumber-js/es6/AsYouTypeState.js
 function AsYouTypeState_classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -13532,8 +13530,8 @@ var component = normalizeComponent(
 )
 
 /* harmony default export */ var InputTel = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"faaef9da-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/VuePhoneNumberInput/CountrySelector/index.vue?vue&type=template&id=96532d88&scoped=true&
-var CountrySelectorvue_type_template_id_96532d88_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"parent",staticClass:"country-selector",class:[
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"faaef9da-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--1-0!./node_modules/vue-loader/lib??vue-loader-options!./src/VuePhoneNumberInput/CountrySelector/index.vue?vue&type=template&id=62943be8&scoped=true&
+var CountrySelectorvue_type_template_id_62943be8_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"parent",staticClass:"country-selector",class:[
     {
       'is-focused': _vm.isFocus,
       'has-value': _vm.value,
@@ -13559,10 +13557,10 @@ return [_c('button',{key:("item-" + (item.code)),staticClass:"flex align-center 
             } ],style:([
             _vm.itemHeight,
             _vm.value === item.iso2 ? _vm.bgItemSelectedStyle : null ]),attrs:{"tabindex":"-1","type":"button"},on:{"click":function($event){$event.stopPropagation();return _vm.updateValue(item.iso2)}}},[(!_vm.noFlags)?_c('div',{staticClass:"country-selector__list__item__flag-container"},[_c('div',{class:("iti-flag-small iti-flag " + (item.iso2.toLowerCase()))})]):_vm._e(),(_vm.showCodeOnList)?_c('span',{staticClass:"country-selector__list__item__calling-code flex-fixed"},[_vm._v("+"+_vm._s(item.dialCode))]):_vm._e(),_c('div',{staticClass:"dots-text"},[_vm._v(" "+_vm._s(item.name)+" ")])])]}}])})],1)])],1)}
-var CountrySelectorvue_type_template_id_96532d88_scoped_true_staticRenderFns = []
+var CountrySelectorvue_type_template_id_62943be8_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/VuePhoneNumberInput/CountrySelector/index.vue?vue&type=template&id=96532d88&scoped=true&
+// CONCATENATED MODULE: ./src/VuePhoneNumberInput/CountrySelector/index.vue?vue&type=template&id=62943be8&scoped=true&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.function.name.js
 var es6_function_name = __webpack_require__("7f7f");
@@ -13638,13 +13636,6 @@ function _toConsumableArray(arr) {
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.array.find.js
 var es6_array_find = __webpack_require__("7514");
 
-// CONCATENATED MODULE: ./node_modules/libphonenumber-js/min/exports/getCountryCallingCode.js
-
-
-
-function getCountryCallingCode_getCountryCallingCode() {
-	return withMetadataArgument(getCountryCallingCode, arguments)
-}
 // EXTERNAL MODULE: ./node_modules/vue-virtual-scroller/dist/vue-virtual-scroller.esm.js
 var vue_virtual_scroller_esm = __webpack_require__("e508");
 
@@ -13931,13 +13922,7 @@ var vue_virtual_scroller_esm = __webpack_require__("e508");
         return null;
       }
 
-      var code = getCountryCallingCode_getCountryCallingCode(this.value);
-
-      if (code) {
-        return "+".concat(getCountryCallingCode_getCountryCallingCode(this.value));
-      }
-
-      return null;
+      return "+".concat(getCountryCallingCode_getCountryCallingCode(this.value));
     }
   },
   methods: {
@@ -14061,8 +14046,8 @@ var vue_virtual_scroller_esm = __webpack_require__("e508");
 });
 // CONCATENATED MODULE: ./src/VuePhoneNumberInput/CountrySelector/index.vue?vue&type=script&lang=js&
  /* harmony default export */ var VuePhoneNumberInput_CountrySelectorvue_type_script_lang_js_ = (CountrySelectorvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/VuePhoneNumberInput/CountrySelector/index.vue?vue&type=style&index=0&id=96532d88&prod&lang=scss&scoped=true&
-var CountrySelectorvue_type_style_index_0_id_96532d88_prod_lang_scss_scoped_true_ = __webpack_require__("c8cf");
+// EXTERNAL MODULE: ./src/VuePhoneNumberInput/CountrySelector/index.vue?vue&type=style&index=0&id=62943be8&prod&lang=scss&scoped=true&
+var CountrySelectorvue_type_style_index_0_id_62943be8_prod_lang_scss_scoped_true_ = __webpack_require__("fc5a");
 
 // CONCATENATED MODULE: ./src/VuePhoneNumberInput/CountrySelector/index.vue
 
@@ -14075,11 +14060,11 @@ var CountrySelectorvue_type_style_index_0_id_96532d88_prod_lang_scss_scoped_true
 
 var CountrySelector_component = normalizeComponent(
   VuePhoneNumberInput_CountrySelectorvue_type_script_lang_js_,
-  CountrySelectorvue_type_template_id_96532d88_scoped_true_render,
-  CountrySelectorvue_type_template_id_96532d88_scoped_true_staticRenderFns,
+  CountrySelectorvue_type_template_id_62943be8_scoped_true_render,
+  CountrySelectorvue_type_template_id_62943be8_scoped_true_staticRenderFns,
   false,
   null,
-  "96532d88",
+  "62943be8",
   null
   
 )
@@ -14172,8 +14157,6 @@ function VuePhoneNumberInputvue_type_script_lang_js_objectSpread(target) { for (
 //
 //
 //
-//
-//
 
 
 
@@ -14190,7 +14173,7 @@ var browserLocale = function browserLocale() {
   if (!window) return null;
   var browserLocale = window.navigator.userLanguage || window.navigator.language;
   var locale = browserLocale ? browserLocale.substr(3, 4).toUpperCase() : null;
-  if (locale === '') locale = browserLocale.substr(0, 2).toUpperCase();
+  if (locale === "") locale = browserLocale.substr(0, 2).toUpperCase();
   return locale;
 };
 
@@ -14199,7 +14182,7 @@ var VuePhoneNumberInputvue_type_script_lang_js_isCountryAvailable = function isC
 };
 
 /* harmony default export */ var VuePhoneNumberInputvue_type_script_lang_js_ = ({
-  name: 'VuePhoneNumberInput',
+  name: "VuePhoneNumberInput",
   components: {
     InputTel: InputTel,
     CountrySelector: CountrySelector
@@ -14211,23 +14194,23 @@ var VuePhoneNumberInputvue_type_script_lang_js_isCountryAvailable = function isC
     },
     id: {
       type: String,
-      default: 'MazPhoneNumberInput'
+      default: "MazPhoneNumberInput"
     },
     color: {
       type: String,
-      default: 'dodgerblue'
+      default: "dodgerblue"
     },
     validColor: {
       type: String,
-      default: 'yellowgreen'
+      default: "yellowgreen"
     },
     errorColor: {
       type: String,
-      default: 'orangered'
+      default: "orangered"
     },
     darkColor: {
       type: String,
-      default: '#424242'
+      default: "#424242"
     },
     disabled: {
       type: Boolean,
@@ -14325,11 +14308,12 @@ var VuePhoneNumberInputvue_type_script_lang_js_isCountryAvailable = function isC
     },
     countryCode: {
       get: function get() {
-        return this.userLocale || this.results.countryCode;
+        return this.getValidCountryCode(this.userLocale || this.results.countryCode);
       },
       set: function set(newCountry) {
-        this.setLocale(newCountry);
-        this.$refs.PhoneNumberInput.$el.querySelector('input').focus();
+        var code = this.getValidCountryCode(newCountry);
+        this.setLocale(code);
+        this.$refs.PhoneNumberInput.$el.querySelector("input").focus();
       }
     },
     phoneNumber: {
@@ -14357,7 +14341,7 @@ var VuePhoneNumberInputvue_type_script_lang_js_isCountryAvailable = function isC
       return phoneNumber ? phoneNumber.formatNational() : null;
     },
     hasEmptyPhone: function hasEmptyPhone() {
-      return this.phoneNumber === '' || this.phoneNumber === null;
+      return this.phoneNumber === "" || this.phoneNumber === null;
     },
     hintValue: function hintValue() {
       return this.noExample || !this.phoneNumberExample ? null : this.hasEmptyPhone || this.isValid ? null : "".concat(this.t.example, " ").concat(this.phoneNumberExample);
@@ -14369,10 +14353,10 @@ var VuePhoneNumberInputvue_type_script_lang_js_isCountryAvailable = function isC
           color: this.color
         },
         textColor: {
-          color: '#747474'
+          color: "#747474"
         },
         textDarkColor: {
-          color: 'rgba(255, 255, 255, 0.7)'
+          color: "rgba(255, 255, 255, 0.7)"
         },
         validColor: {
           color: this.validColor
@@ -14512,6 +14496,29 @@ var VuePhoneNumberInputvue_type_script_lang_js_isCountryAvailable = function isC
     return mounted;
   }(),
   methods: {
+    getValidCountryCode: function getValidCountryCode(newCode) {
+      var code = newCode;
+
+      if (!code) {
+        code = null;
+      }
+
+      try {
+        // Try to find code to see if it is valid.
+        var _ = getCountryCallingCode_getCountryCallingCode(code);
+      } catch (e) {
+        switch (code) {
+          case "IC":
+            code = "ES";
+            break;
+
+          default:
+            code = null;
+        }
+      }
+
+      return code;
+    },
     getAsYouTypeFormat: function getAsYouTypeFormat(payload) {
       var countryCode = payload.countryCode,
           phoneNumber = payload.phoneNumber;
@@ -14525,7 +14532,7 @@ var VuePhoneNumberInputvue_type_script_lang_js_isCountryAvailable = function isC
       return VuePhoneNumberInputvue_type_script_lang_js_objectSpread(VuePhoneNumberInputvue_type_script_lang_js_objectSpread({
         countryCode: countryCode,
         isValid: false
-      }, phoneNumber && phoneNumber !== '' ? {
+      }, phoneNumber && phoneNumber !== "" ? {
         phoneNumber: phoneNumber
       } : null), parsing ? {
         countryCallingCode: parsing.countryCallingCode,
@@ -14536,7 +14543,7 @@ var VuePhoneNumberInputvue_type_script_lang_js_isCountryAvailable = function isC
         formatInternational: parsing.formatInternational(),
         formatNational: parsing.formatNational(),
         uri: parsing.getURI(),
-        e164: parsing.format('E.164')
+        e164: parsing.format("E.164")
       } : null);
     },
     emitValues: function emitValues(payload) {
@@ -14547,16 +14554,16 @@ var VuePhoneNumberInputvue_type_script_lang_js_isCountryAvailable = function isC
       this.$nextTick(function () {
         var lastCharacOfPhoneNumber = _this.phoneNumber ? _this.phoneNumber.trim().slice(-1) : false;
 
-        if (backSpacePressed && lastCharacOfPhoneNumber && lastCharacOfPhoneNumber.slice(-1) === ')') {
+        if (backSpacePressed && lastCharacOfPhoneNumber && lastCharacOfPhoneNumber.slice(-1) === ")") {
           asYouType = _this.phoneNumber.slice(0, -2);
           payload.phoneNumber = _this.phoneNumber.slice(0, -2);
         }
 
         _this.results = _this.getParsePhoneNumberFromString(payload);
 
-        _this.$emit('update', _this.results);
+        _this.$emit("update", _this.results);
 
-        _this.$emit('input', asYouType);
+        _this.$emit("input", asYouType);
       });
     },
     setLocale: function setLocale(locale) {
@@ -14581,7 +14588,7 @@ var VuePhoneNumberInputvue_type_script_lang_js_isCountryAvailable = function isC
               case 0:
                 _context2.prev = 0;
                 _context2.next = 3;
-                return fetch('https://ip2c.org/s');
+                return fetch("https://ip2c.org/s");
 
               case 3:
                 response = _context2.sent;
@@ -14590,8 +14597,8 @@ var VuePhoneNumberInputvue_type_script_lang_js_isCountryAvailable = function isC
 
               case 6:
                 responseText = _context2.sent;
-                result = (responseText || '').toString();
-                if (result && result[0] === '1') this.setLocale(result.substr(2, 2));
+                result = (responseText || "").toString();
+                if (result && result[0] === "1") this.setLocale(result.substr(2, 2));
                 _context2.next = 14;
                 break;
 
@@ -14618,8 +14625,8 @@ var VuePhoneNumberInputvue_type_script_lang_js_isCountryAvailable = function isC
 });
 // CONCATENATED MODULE: ./src/VuePhoneNumberInput/index.vue?vue&type=script&lang=js&
  /* harmony default export */ var src_VuePhoneNumberInputvue_type_script_lang_js_ = (VuePhoneNumberInputvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/VuePhoneNumberInput/index.vue?vue&type=style&index=0&id=19351537&prod&lang=scss&scoped=true&
-var VuePhoneNumberInputvue_type_style_index_0_id_19351537_prod_lang_scss_scoped_true_ = __webpack_require__("e214");
+// EXTERNAL MODULE: ./src/VuePhoneNumberInput/index.vue?vue&type=style&index=0&id=15cdb7ac&prod&lang=scss&scoped=true&
+var VuePhoneNumberInputvue_type_style_index_0_id_15cdb7ac_prod_lang_scss_scoped_true_ = __webpack_require__("9387");
 
 // CONCATENATED MODULE: ./src/VuePhoneNumberInput/index.vue
 
@@ -14636,7 +14643,7 @@ var VuePhoneNumberInput_component = normalizeComponent(
   staticRenderFns,
   false,
   null,
-  "19351537",
+  "15cdb7ac",
   null
   
 )
@@ -14647,6 +14654,17 @@ var VuePhoneNumberInput_component = normalizeComponent(
 
 /* harmony default export */ var entry_lib = __webpack_exports__["default"] = (VuePhoneNumberInput);
 
+
+
+/***/ }),
+
+/***/ "fc5a":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_62943be8_prod_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("5926");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_62943be8_prod_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_9_oneOf_1_0_node_modules_css_loader_dist_cjs_js_ref_9_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_9_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_9_oneOf_1_3_node_modules_cache_loader_dist_cjs_js_ref_1_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_id_62943be8_prod_lang_scss_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
 
 
 /***/ }),
