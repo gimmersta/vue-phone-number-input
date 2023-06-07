@@ -1,11 +1,6 @@
 <template>
-  <div
-    id="app"
-    :class="{ 'dark': dark }"
-  >
-    <h1 class="text-center py-3">
-      VuePhoneNumberInput
-    </h1>
+  <div id="app" :class="{ dark: dark }">
+    <h1 class="text-center py-3">VuePhoneNumberInput</h1>
     <div class="container mb-3 flex direction-column">
       <div class="flex align-center justify-center mb-3">
         <a
@@ -24,12 +19,7 @@
         </a>
       </div>
       <div class="flex align-center justify-center">
-        <button
-          class="btn mr-2"
-          @click="dark = !dark"
-        >
-          Toggle Dark Mode
-        </button>
+        <button class="btn mr-2" @click="dark = !dark">Toggle Dark Mode</button>
 
         <button
           class="btn btn--success mr-2"
@@ -49,9 +39,7 @@
     <div class="container mb-3">
       <div class="flex flex-wrap">
         <div class="component-container">
-          <h3 class="mb-2">
-            Basic usage
-          </h3>
+          <h3 class="mb-2">Basic usage</h3>
           <div class="component mb-2">
             <VuePhoneNumberInput
               id="phoneNumber1"
@@ -61,6 +49,7 @@
               :disabled="disabled"
               :ignored-countries="countriesIgnored"
               :preferred-countries="countriesList"
+              :defaultCountryCode="defaultCountryCode"
               :loader="hasLoaderActive"
               clearable
               :error="hasErrorActive"
@@ -71,20 +60,14 @@
           </div>
 
           <div class="component">
-            <h4 class="mb-2">
-              Datas returned with "update" event
-            </h4>
+            <h4 class="mb-2">Datas returned with "update" event</h4>
             <div class="flex flex-wrap">
               <table class="mr-2">
                 <tr>
                   <th>Key</th>
                   <th>Value</th>
                 </tr>
-                <tr
-                  v-for="item in resultsTable"
-                  :key="item"
-                  class="w-100"
-                >
+                <tr v-for="item in resultsTable" :key="item" class="w-100">
                   <td align="left">
                     {{ item }}
                   </td>
@@ -124,27 +107,21 @@
             <b>v-model</b> : {{ phoneNumber2 }}
           </div>
           <div class="component">
-            <h4 class="mb-2">
-              Datas returned with "update" event
-            </h4>
+            <h4 class="mb-2">Datas returned with "update" event</h4>
             <div class="flex flex-wrap">
               <table class="mr-2">
                 <tr>
                   <th>Key</th>
                   <th>Value</th>
                 </tr>
-                <tr
-                  v-for="item in resultsTable2"
-                  :key="item"
-                  class="w-100"
-                >
+                <tr v-for="item in resultsTable2" :key="item" class="w-100">
                   <td align="left">
                     {{ item }}
                   </td>
                   <td>{{ results2[item] }}</td>
                 </tr>
               </table>
-              <div class="flex flex-direction-column  flex-1">
+              <div class="flex flex-direction-column flex-1">
                 <b>Payload:</b>
                 {{ results2 }}
               </div>
@@ -169,24 +146,18 @@
             @update="onUpdate3"
           />
           <b>v-model</b> : {{ phoneNumber3 }}
-          <br>
+          <br />
           <b>Current country code</b> : {{ defaultCountry }}
         </div>
         <div class="component">
-          <h4 class="mb-2">
-            Datas returned with "update" event
-          </h4>
+          <h4 class="mb-2">Datas returned with "update" event</h4>
           <div class="flex flex-wrap">
             <table class="mr-2">
               <tr>
                 <th>Key</th>
                 <th>Value</th>
               </tr>
-              <tr
-                v-for="item in resultsTable3"
-                :key="item"
-                class="w-100"
-              >
+              <tr v-for="item in resultsTable3" :key="item" class="w-100">
                 <td align="left">
                   {{ item }}
                 </td>
@@ -205,59 +176,60 @@
 </template>
 
 <script>
-  import VuePhoneNumberInput from './VuePhoneNumberInput'
+import VuePhoneNumberInput from "./VuePhoneNumberInput";
 
-  export default {
-    name: 'App',
-    components: {
-      VuePhoneNumberInput
+export default {
+  name: "App",
+  components: {
+    VuePhoneNumberInput,
+  },
+  data() {
+    return {
+      phoneNumber: null,
+      phoneNumber2: null,
+      phoneNumber3: "0665656565",
+      defaultCountryCode: "IC",
+      defaultCountry: "FR",
+      countriesList: ["FR", "BE", "DE"],
+      countriesIgnored: ["AF", "AD", "AL"],
+      translations: {
+        countrySelectorLabel: "Code pays",
+        countrySelectorError: "Choisir un pays",
+        phoneNumberLabel: "Numéro de téléphone",
+        example: "Exemple :",
+      },
+      results: {},
+      results2: {},
+      results3: {},
+      dark: false,
+      disabled: false,
+      hasLoaderActive: false,
+      hasErrorActive: false,
+    };
+  },
+  computed: {
+    resultsTable() {
+      return Object.keys(this.results);
     },
-    data() {
-      return {
-        phoneNumber: null,
-        phoneNumber2: null,
-        phoneNumber3: '0665656565',
-        defaultCountry: 'FR',
-        countriesList: ['FR', 'BE', 'DE'],
-        countriesIgnored: ['AF', 'AD', 'AL'],
-        translations: {
-          countrySelectorLabel: 'Code pays',
-          countrySelectorError: 'Choisir un pays',
-          phoneNumberLabel: 'Numéro de téléphone',
-          example: 'Exemple :'
-        },
-        results: {},
-        results2: {},
-        results3: {},
-        dark: false,
-        disabled: false,
-        hasLoaderActive: false,
-        hasErrorActive: false
-      }
+    resultsTable2() {
+      return Object.keys(this.results2);
     },
-    computed: {
-      resultsTable () {
-        return Object.keys(this.results)
-      },
-      resultsTable2 () {
-        return Object.keys(this.results2)
-      },
-      resultsTable3 () {
-        return Object.keys(this.results3)
-      }
+    resultsTable3() {
+      return Object.keys(this.results3);
     },
-    methods: {
-      onUpdate (payload) {
-        this.results = payload
-      },
-      onUpdate2 (payload) {
-        this.results2 = payload
-      },
-      onUpdate3 (payload) {
-        this.results3 = payload
-      }
-    }
-  }
+  },
+  methods: {
+    onUpdate(payload) {
+      this.results = payload;
+    },
+    onUpdate2(payload) {
+      this.results2 = payload;
+    },
+    onUpdate3(payload) {
+      this.results3 = payload;
+    },
+  },
+};
 </script>
 
 <style lang="scss">
@@ -269,11 +241,11 @@ body {
 </style>
 
 <style lang="scss" scoped>
-@import '@/assets/scss/variables';
-@import 'style-helpers';
+@import "@/assets/scss/variables";
+@import "style-helpers";
 
 #app {
-  font-family: 'Roboto', 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Roboto", "Avenir", Helvetica, Arial, sans-serif;
   color: $text-color;
   height: 100%;
   min-height: 100%;
@@ -305,7 +277,7 @@ h6 {
 
 hr {
   border: 0;
-  border-top: 1px solid #EBEBEB;
+  border-top: 1px solid #ebebeb;
 }
 
 *,
@@ -316,13 +288,12 @@ hr {
 
 .component {
   padding: 10px;
-  background: #FFF;
+  background: #fff;
   border-radius: 4px;
-  border: 1px solid #EBEBEB;
+  border: 1px solid #ebebeb;
 
   &:hover {
-    box-shadow:
-      0 0 8px 0 rgba(232, 237, 250, 0.6),
+    box-shadow: 0 0 8px 0 rgba(232, 237, 250, 0.6),
       0 2px 4px 0 rgba(232, 237, 250, 0.5);
   }
 
@@ -334,22 +305,21 @@ hr {
 .component-container {
   margin: 0 10px 20px 10px;
   padding: 20px;
-  background: #FFF;
+  background: #fff;
   border-radius: 4px;
-  border: 1px solid #EBEBEB;
+  border: 1px solid #ebebeb;
   min-width: 300px;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   flex: 1 0 48%;
 
   &:hover {
-    box-shadow:
-      0 0 8px 0 rgba(232, 237, 250, 0.6),
+    box-shadow: 0 0 8px 0 rgba(232, 237, 250, 0.6),
       0 2px 4px 0 rgba(232, 237, 250, 0.5);
   }
 
   &.dark {
     background-color: $bg-color-dark;
-    color: #FFF;
+    color: #fff;
 
     textarea {
       background: $bg-color-dark;
@@ -367,17 +337,17 @@ table {
   margin-bottom: 16px;
 
   tr {
-    background-color: #FFF;
-    border-top: 1px solid #C6CBD1;
+    background-color: #fff;
+    border-top: 1px solid #c6cbd1;
 
     th,
     td {
       padding: 6px 13px;
-      border: 1px solid #DFE2E5;
+      border: 1px solid #dfe2e5;
     }
 
     &:nth-child(2n) {
-      background-color: #F6F8FA;
+      background-color: #f6f8fa;
     }
   }
 }

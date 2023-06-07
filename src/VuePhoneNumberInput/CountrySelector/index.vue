@@ -214,12 +214,7 @@ export default {
         return null;
       }
 
-      let code = getCountryCallingCode(this.value);
-      if (code) {
-        return `+${getCountryCallingCode(this.value)}`;
-      }
-      
-      return null;
+      return `+${getCountryCallingCode(this.value)}`;
     },
   },
   methods: {
