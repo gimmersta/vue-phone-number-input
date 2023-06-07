@@ -5,7 +5,6 @@
   "author": "Louis Mazel <me@loicmazuel.com>",
   "scripts": {
     "serve": "vue-cli-service serve --mode development --open",
-    "serve:nuxt": "nuxt src",
     "build": "npm run build:lib && npm run build:docs",
     "test": "vue-cli-service test:unit /test/specs",
     "lint": "vue-cli-service lint && npm run lint:style",
@@ -32,13 +31,8 @@
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.12.1",
-    "@vue/cli-plugin-eslint": "^4.3.1",
     "@vue/cli-service": "^4.3.1",
-    "babel-eslint": "^10.1.0",
     "color-transformer-ui": "^1.0.3",
-    "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^9.5.1",
-    "nuxt": "^2.12.2",
     "path": "^0.12.7",
     "sass": "^1.54.9",
     "sass-loader": "^10.3.1",
